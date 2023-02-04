@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1: #0B0D17;
+  --color2: #D0D6F9;
+  --color3: #FFFFFF;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 55px;
+  padding-top: 40px;
+}
+
+.line{
+  position: relative;
+  width: 473px;
+  height: 1px;
+  background-color: var(--color3);
+  left: 100px;
+  opacity: 0.25;
+  z-index: 100;
+
+}
+
+.line1{
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color3);
+  opacity: 0.25;
+  z-index: 100;
+  margin: 20px 0px;
+
+}
+
+.navigation{
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  width: 830px;
+  height: 96px;
+  padding: 0px 122px ;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  
+}
+
+li{
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  display: flex;
+  gap: 10px;
+  color: var(--color3);
+  list-style: none;
+  height: 100%;
+ display: flex;
+ align-items: center;
+ border-bottom:3px solid  #ffffff00;
+
+}
+
+li:hover{
+  border-bottom:3px solid  #ffffff;
+  cursor: pointer;
+}
+
+
+
+li span{
+  font-weight: 700;
+
+}
+
+
+.container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.container1{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 130px 160px;
+}
+
+.left{
+  max-width: 450px;
+}
+
+h6{
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #D0D6F9;
+}
+
+h5{
+  font-family: 'Barlow Condensed';
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+}
+
+h1{
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 172px;
+  color: #FFFFFF;
+  margin: 5px 0px;
+}
+
+p{
+  font-family: 'Barlow';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+}
+
+.circle{
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+
+h3{
+  font-family: 'Bellefair';
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 37px;
+ letter-spacing: 2px;
+ color: #0B0D17;
+}
+
+ .description, .imgBox{
+  max-width: 450px;
+}
+
+.destination{
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+
+}
+
+.description ul{
+  justify-content: flex-start;
+  gap: 30px;
+
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+
+.box h6{
+   margin-bottom: 50px;
+}
+
+.box p{
+  min-height: 130px;
+}
+
+.box h6 span {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;  
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+
+.locate{
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.locate h6{
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  transform: uppercase;
+  color: #FFFFFF;
+}
+
+.slider1{
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin: 80px 0px;
+}
+
+.slider1 div{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  opacity: 0.17;
+}
+
+.slider1 div:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.description h3{
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.box2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 160px;
+
+}
+
+.box2 p{
+  min-height: 160px;
+}
+
+.box2 .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.box2 .inner h3, .box3  h3{
+  font-family: 'Bellefair';
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  margin: 15px 0px;
+}
+
+.box2 .inner h6, .box3 h6{
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+}
+
+.box2 .inner h6 span, .box3 h6 span {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25
+}
+
+
+.box2 .inner h4{
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.box2 .inner p, .box3 p{
+  max-width: 445px;
+}
+
+.box2 .imgBox{
+  max-height: 575px;
+}
+
+.box2 .imgBox img{
+  height: 100%;
+}
+
+.box3{
+  padding-left: 160px;;
+  padding-right: 0px;
+}
+
+.box3 .innerbox{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+
+.discript{
+  display: flex;
+}
+
+.selector{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+ .selector div{
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.selector div:hover{
+  background-color: #FFFFFF;
+  color:#0B0D17 ;
+  cursor: pointer;
+}
